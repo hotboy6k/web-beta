@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nguyễn Trương Đức Thiện - Chuyên Gia Công Nghệ</title>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>tailwind.config={theme:{extend:{colors:{primary:'#57b5e7',secondary:'#8dd3c7'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet">
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+</style>
+</head>
+<body class="bg-white">
+<header class="bg-white shadow-sm border-b border-gray-100">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center py-4">
+<div class="flex items-center space-x-3">
+<div class="w-10 h-10 flex items-center justify-center bg-blue-600 rounded-lg">
+<i class="ri-computer-line text-white text-xl"></i>
+</div>
+<div class="font-['Pacifico'] text-2xl text-gray-900">Dev Tech Expert</div>
+</div>
+<nav class="hidden md:flex space-x-8">
+<a href="#about" class="text-gray-700 hover:text-primary transition-colors">Giới Thiệu</a>
+<a href="#skills" class="text-gray-700 hover:text-primary transition-colors">Kỹ Năng</a>
+<a href="#gallery" class="text-gray-700 hover:text-primary transition-colors">Thư Viện</a>
+<a href="#contact" class="text-gray-700 hover:text-primary transition-colors">Liên Hệ</a>
+</nav>
+</div>
+</div>
+</header>
+<section class="relative bg-gradient-to-br from-gray-50 to-white min-h-screen flex items-center" style="background-image: url('https://readdy.ai/api/search-image?query=Futuristic%20technology%20laboratory%20with%20holographic%20displays%2C%20advanced%20computer%20workstation%2C%20sleek%20modern%20design%2C%20blue%20and%20white%20lighting%2C%20high-tech%20equipment%2C%20professional%20workspace%2C%20clean%20minimalist%20aesthetic%2C%20cutting-edge%20technology%20setup%2C%20modern%20architecture&width=1920&height=1080&seq=hero002&orientation=landscape'); background-size: cover; background-position: center;">
+<div class="absolute inset-0 bg-white bg-opacity-80"></div>
+<div class="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="space-y-8">
+<div class="space-y-4">
+<div class="inline-block bg-gradient-to-r from-primary to-blue-600 text-white px-6 py-2 rounded-full text-lg font-medium mb-4">
+🎉 Chào Mừng Các Bạn Đến Website Của Tôi!
+</div>
+<h1 class="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
+<span class="bg-gradient-to-r from-red-500 via-yellow-500 via-green-500 via-blue-500 via-indigo-500 to-purple-500 bg-clip-text text-transparent">Dev</span> <span class="bg-gradient-to-r from-purple-500 via-pink-500 via-red-500 via-orange-500 via-yellow-500 to-green-500 bg-clip-text text-transparent">Nguyễn Trương</span><br>
+<span class="bg-gradient-to-r from-blue-500 via-cyan-500 via-teal-500 via-emerald-500 via-lime-500 to-yellow-500 bg-clip-text text-transparent">Đức Thiện</span>
+</h1>
+<p class="text-xl text-gray-600 leading-relaxed">
+Chuyên gia công nghệ với đam mê khám phá và nghiên cứu các công nghệ tiên tiến
+</p>
+</div>
+<div class="flex flex-wrap gap-4">
+<div class="flex items-center space-x-2 bg-white rounded-lg px-4 py-2 shadow-sm">
+<div class="w-5 h-5 flex items-center justify-center">
+<i class="ri-cpu-line text-blue-500"></i>
+</div>
+<span class="text-sm font-medium text-gray-700">Hardware Expert</span>
+</div>
+<div class="flex items-center space-x-2 bg-white rounded-lg px-4 py-2 shadow-sm">
+<div class="w-5 h-5 flex items-center justify-center">
+<i class="ri-code-line text-blue-500"></i>
+</div>
+<span class="text-sm font-medium text-gray-700">Kernel Developer</span>
+</div>
+<div class="flex items-center space-x-2 bg-white rounded-lg px-4 py-2 shadow-sm">
+<div class="w-5 h-5 flex items-center justify-center">
+<i class="ri-search-line text-blue-500"></i>
+</div>
+<span class="text-sm font-medium text-gray-700">Tech Researcher</span>
+</div>
+</div>
+<div class="flex flex-col sm:flex-row gap-4">
+<a href="#contact" class="!rounded-button whitespace-nowrap inline-flex items-center justify-center px-8 py-3 bg-blue-500 text-white font-semibold hover:bg-blue-600 transition-colors">
+Liên hệ với tôi
+</a>
+<a href="#skills" class="!rounded-button whitespace-nowrap inline-flex items-center justify-center px-8 py-3 border-2 border-blue-500 text-blue-500 font-semibold hover:bg-blue-600 hover:text-white transition-colors">
+Xem kỹ năng
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="about" class="py-20 bg-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold text-gray-900 mb-4">Về tôi</h2>
+<p class="text-xl text-gray-600 max-w-3xl mx-auto">
+Với niềm đam mê bất tận đối với công nghệ, tôi luôn tìm kiếm và khám phá những điều mới mẻ trong thế giới số
+</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="space-y-6">
+<div class="prose prose-lg text-gray-700">
+<p>
+Xin chào! Tôi là <strong>Nguyễn Trương Đức Thiện</strong>, một người có đam mê mãnh liệt với công nghệ và luôn khao khát khám phá những điều mới mẻ trong lĩnh vực này.
+</p>
+<p>
+Điều đặc biệt khiến tôi hứng thú nhất chính là việc tự tìm hiểu và nghiên cứu các công nghệ tiên tiến. Tôi không chỉ dừng lại ở việc sử dụng mà còn đi sâu vào hiểu rõ cách thức hoạt động và tối ưu hóa chúng.
+</p>
+<p>
+Với kinh nghiệm trong việc <strong>build PC, laptop</strong> và <strong>cài đặt phần mềm</strong>, tôi đã giúp nhiều người tạo ra những hệ thống máy tính hoàn hảo phù hợp với nhu cầu của họ.
+</p>
+<p>
+Đặc biệt, tôi có chuyên môn sâu về <strong>root, build và install kernel, susfs</strong> - những kỹ năng đòi hỏi sự hiểu biết sâu sắc về hệ điều hành và kiến trúc hệ thống.
+</p>
+</div>
+</div>
+<div class="relative">
+<img src="https://readdy.ai/api/search-image?query=Professional%20technology%20enthusiast%20working%20on%20computer%20hardware%2C%20building%20custom%20PC%2C%20modern%20workspace%20with%20components%2C%20motherboard%2C%20RAM%2C%20graphics%20card%2C%20professional%20lighting%2C%20clean%20background%2C%20high-tech%20environment&width=600&height=400&seq=about001&orientation=landscape" alt="Technology workspace" class="rounded-2xl shadow-xl object-cover w-full h-96">
+<div class="absolute -bottom-6 -right-6 bg-white rounded-xl shadow-lg p-6">
+<div class="flex items-center space-x-3">
+<div class="w-12 h-12 flex items-center justify-center bg-blue-600 rounded-lg">
+<i class="ri-tools-line text-white text-xl"></i>
+</div>
+<div>
+<div class="font-semibold text-gray-900">5+ năm</div>
+<div class="text-sm text-gray-600">Kinh nghiệm</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="skills" class="py-20 bg-gray-50">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold text-gray-900 mb-4">Kỹ năng chuyên môn</h2>
+<p class="text-xl text-gray-600 max-w-3xl mx-auto">
+Những lĩnh vực mà tôi có chuyên môn và kinh nghiệm thực tế
+</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-lg transition-shadow">
+<div class="w-16 h-16 flex items-center justify-center bg-blue-600 rounded-xl mb-6">
+<i class="ri-computer-line text-white text-2xl"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-4">Build PC & Laptop</h3>
+<p class="text-gray-600 mb-6">Lắp ráp, nâng cấp và tối ưu hóa hệ thống máy tính theo nhu cầu cụ thể</p>
+<ul class="space-y-2 text-sm text-gray-600">
+<li class="flex items-center space-x-2">
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-check-line text-primary"></i>
+</div>
+<span>Lựa chọn linh kiện tương thích</span>
+</li>
+<li class="flex items-center space-x-2">
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-check-line text-primary"></i>
+</div>
+<span>Tối ưu hiệu suất hệ thống</span>
+</li>
+<li class="flex items-center space-x-2">
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-check-line text-primary"></i>
+</div>
+<span>Troubleshooting phần cứng</span>
+</li>
+</ul>
+</div>
+<div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-lg transition-shadow">
+<div class="w-16 h-16 flex items-center justify-center bg-green-500 rounded-xl mb-6">
+<i class="ri-download-line text-white text-2xl"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-4">Software Installation</h3>
+<p class="text-gray-600 mb-6">Cài đặt và cấu hình phần mềm chuyên nghiệp, tối ưu cho từng hệ thống</p>
+<ul class="space-y-2 text-sm text-gray-600">
+<li class="flex items-center space-x-2">
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-check-line text-secondary"></i>
+</div>
+<span>Cài đặt hệ điều hành</span>
+</li>
+<li class="flex items-center space-x-2">
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-check-line text-secondary"></i>
+</div>
+<span>Cấu hình phần mềm chuyên dụng</span>
+</li>
+<li class="flex items-center space-x-2">
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-check-line text-secondary"></i>
+</div>
+<span>Tối ưu hóa hiệu suất</span>
+</li>
+</ul>
+</div>
+<div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-lg transition-shadow">
+<div class="w-16 h-16 flex items-center justify-center bg-orange-500 rounded-xl mb-6">
+<i class="ri-terminal-line text-white text-2xl"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-4">Root & Kernel Development</h3>
+<p class="text-gray-600 mb-6">Chuyên môn về root, build và install kernel, susfs cho hệ thống Android</p>
+<ul class="space-y-2 text-sm text-gray-600">
+<li class="flex items-center space-x-2">
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-check-line text-orange-500"></i>
+</div>
+<span>Custom kernel building</span>
+</li>
+<li class="flex items-center space-x-2">
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-check-line text-orange-500"></i>
+</div>
+<span>SUSFS implementation</span>
+</li>
+<li class="flex items-center space-x-2">
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-check-line text-orange-500"></i>
+</div>
+<span>Root access optimization</span>
+</li>
+</ul>
+</div>
+<div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-lg transition-shadow">
+<div class="w-16 h-16 flex items-center justify-center bg-red-500 rounded-xl mb-6">
+<i class="ri-search-2-line text-white text-2xl"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-4">Technology Research</h3>
+<p class="text-gray-600 mb-6">Nghiên cứu và khám phá các công nghệ mới, xu hướng công nghệ tương lai</p>
+<ul class="space-y-2 text-sm text-gray-600">
+<li class="flex items-center space-x-2">
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-check-line text-red-500"></i>
+</div>
+<span>Emerging technologies</span>
+</li>
+<li class="flex items-center space-x-2">
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-check-line text-red-500"></i>
+</div>
+<span>Performance analysis</span>
+</li>
+<li class="flex items-center space-x-2">
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-check-line text-red-500"></i>
+</div>
+<span>Innovation implementation</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="gallery" class="py-20 bg-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold text-gray-900 mb-4">Thư Viện Công Nghệ</h2>
+<p class="text-xl text-gray-600 max-w-3xl mx-auto">
+Khám phá những hình ảnh đẹp về công nghệ và các dự án mà tôi đã thực hiện
+</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
+<img src="https://readdy.ai/api/search-image?query=High-end%20gaming%20PC%20build%20with%20RGB%20lighting%2C%20tempered%20glass%20case%2C%20custom%20water%20cooling%2C%20multiple%20graphics%20cards%2C%20professional%20cable%20management%2C%20modern%20setup%2C%20clean%20background&width=400&height=300&seq=gallery001&orientation=landscape" alt="Custom PC Build" class="w-full h-64 object-cover object-top group-hover:scale-105 transition-transform duration-300">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+<div class="absolute bottom-4 left-4 text-white">
+<h3 class="font-semibold">Custom PC Build</h3>
+<p class="text-sm opacity-90">High-performance gaming setup</p>
+</div>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
+<img src="https://readdy.ai/api/search-image?query=Professional%20laptop%20upgrade%20process%2C%20opened%20laptop%20showing%20internal%20components%2C%20SSD%20installation%2C%20RAM%20upgrade%2C%20precision%20tools%2C%20clean%20workspace%2C%20technical%20environment&width=400&height=300&seq=gallery002&orientation=landscape" alt="Laptop Upgrade" class="w-full h-64 object-cover object-top group-hover:scale-105 transition-transform duration-300">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+<div class="absolute bottom-4 left-4 text-white">
+<h3 class="font-semibold">Laptop Upgrade</h3>
+<p class="text-sm opacity-90">Hardware optimization</p>
+</div>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
+<img src="https://readdy.ai/api/search-image?query=Android%20kernel%20development%20environment%2C%20terminal%20window%20with%20code%2C%20smartphone%20connected%20to%20computer%2C%20debugging%20tools%2C%20development%20setup%2C%20professional%20workspace&width=400&height=300&seq=gallery003&orientation=landscape" alt="Kernel Development" class="w-full h-64 object-cover object-top group-hover:scale-105 transition-transform duration-300">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+<div class="absolute bottom-4 left-4 text-white">
+<h3 class="font-semibold">Kernel Development</h3>
+<p class="text-sm opacity-90">Custom Android kernels</p>
+</div>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
+<img src="https://readdy.ai/api/search-image?query=Modern%20software%20installation%20process%2C%20multiple%20monitors%20showing%20installation%20progress%2C%20clean%20desktop%20environment%2C%20professional%20software%20setup%2C%20technology%20workspace&width=400&height=300&seq=gallery004&orientation=landscape" alt="Software Installation" class="w-full h-64 object-cover object-top group-hover:scale-105 transition-transform duration-300">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+<div class="absolute bottom-4 left-4 text-white">
+<h3 class="font-semibold">Software Installation</h3>
+<p class="text-sm opacity-90">Professional setup</p>
+</div>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
+<img src="https://readdy.ai/api/search-image?query=Technology%20research%20workspace%2C%20multiple%20books%20about%20technology%2C%20latest%20gadgets%2C%20research%20papers%2C%20modern%20desk%20setup%2C%20innovative%20technology%20products%2C%20clean%20background&width=400&height=300&seq=gallery005&orientation=landscape" alt="Technology Research" class="w-full h-64 object-cover object-top group-hover:scale-105 transition-transform duration-300">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+<div class="absolute bottom-4 left-4 text-white">
+<h3 class="font-semibold">Technology Research</h3>
+<p class="text-sm opacity-90">Latest innovations</p>
+</div>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
+<img src="https://readdy.ai/api/search-image?query=High-tech%20workspace%20with%20multiple%20devices%2C%20smartphones%2C%20tablets%2C%20laptops%2C%20testing%20environment%2C%20professional%20tech%20setup%2C%20organized%20workspace%2C%20modern%20technology&width=400&height=300&seq=gallery006&orientation=landscape" alt="Tech Workspace" class="w-full h-64 object-cover object-top group-hover:scale-105 transition-transform duration-300">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+<div class="absolute bottom-4 left-4 text-white">
+<h3 class="font-semibold">Tech Workspace</h3>
+<p class="text-sm opacity-90">Professional environment</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="contact" class="py-20 bg-gradient-to-br from-primary to-blue-600">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold text-white mb-4">Liên hệ với tôi</h2>
+<p class="text-xl text-blue-100 max-w-3xl mx-auto">
+Hãy kết nối với tôi để thảo luận về công nghệ hoặc hợp tác trong các dự án thú vị
+</p>
+</div>
+<div class="max-w-4xl mx-auto">
+<div class="bg-white rounded-3xl shadow-2xl p-8 md:p-12">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+<div class="p-12">
+<h2 class="text-2xl font-bold text-gray-800 mb-8">Thông tin liên hệ</h2>
+<div class="space-y-6">
+<div class="flex items-center space-x-4">
+<div class="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center">
+<i class="ri-user-line text-2xl text-white"></i>
+</div>
+<div>
+<h3 class="font-semibold text-gray-800">Nguyễn Trương Đức Thiện</h3>
+<p class="text-gray-600 text-sm">Dev Technology Enthusiast</p>
+</div>
+</div>
+<div class="flex items-center space-x-4">
+<div class="w-14 h-14 bg-green-500 rounded-full flex items-center justify-center">
+<i class="ri-mail-line text-white text-lg"></i>
+</div>
+<div>
+<h3 class="font-semibold text-gray-800">Email</h3>
+<a href="mailto:thientruong012000@gmail.com" class="text-blue-500 text-sm">mail.com</a>
+</div>
+</div>
+<div class="flex items-center space-x-4">
+<div class="w-14 h-14 bg-orange-500 rounded-full flex items-center justify-center">
+<i class="ri-phone-line text-white text-lg"></i>
+</div>
+<div>
+<h3 class="font-semibold text-gray-800">Điện thoại</h3>
+<p class="text-blue-600 text-sm">+84123456786</p>
+</div>
+</div>
+<div class="flex items-center space-x-4">
+<div class="w-14 h-14 bg-blue-600 rounded-full flex items-center justify-center">
+<i class="ri-facebook-fill text-xl text-white"></i>
+</div>
+<div>
+<h3 class="font-semibold text-gray-800">Facebook</h3>
+<a href="https://www.facebook.com/superman.132000" class="text-blue-500 text-sm">facebook.com</a>
+</div>
+</div>
+<div class="flex items-center space-x-4">
+<div class="w-14 h-14 bg-blue-400 rounded-full flex items-center justify-center">
+<i class="ri-telegram-fill text-xl text-white"></i>
+</div>
+<div>
+<h3 class="font-semibold text-gray-900 mb-1">Telegram</h3>
+<a href="https://t.me/thien123" target="_blank" class="text-blue-600 hover:text-blue-700 transition-colors">Telegram.org</a>
+</div>
+</div>
+</div>
+<div class="mt-8">
+<h3 class="font-semibold text-gray-800 mb-4">Chuyên môn chính</h3>
+<div class="grid grid-cols-2 gap-4 text-sm text-gray-600">
+<div class="flex items-center space-x-2">
+<i class="ri-check-line text-green-500"></i>
+<span>PC Building</span>
+</div>
+<div class="flex items-center space-x-2">
+<i class="ri-check-line text-green-500"></i>
+<span>Sukisu + SusFs Kernel Development</span>
+</div>
+<div class="flex items-center space-x-2">
+<i class="ri-check-line text-green-500"></i>
+<span>Software Installation</span>
+</div>
+<div class="flex items-center space-x-2">
+<i class="ri-check-line text-green-500"></i>
+<span>Tech Research</span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-12 bg-gray-50">
+<h2 class="text-2xl font-bold text-gray-800 mb-6">Gửi tin nhắn</h2>
+<form class="space-y-6" id="contact-form">
+<div>
+<input type="text" name="name" placeholder="Tên của bạn" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none text-sm">
+</div>
+<div>
+<input type="email" name="email" placeholder="Email của bạn" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none text-sm">
+</div>
+<div>
+<textarea name="message" rows="4" placeholder="Nội dung tin nhắn" maxlength="500" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none text-sm resize-none"></textarea>
+<div class="text-right text-xs text-gray-500 mt-1">
+<span id="char-count">0</span>/500
+</div>
+</div>
+<button type="submit" class="w-full bg-blue-500 text-white py-3 !rounded-button font-medium hover:bg-blue-600 transition-colors whitespace-nowrap">
+Gửi tin nhắn
+</button>
+<div class="text-center">
+<p class="text-gray-600 text-sm mb-4">Hoặc kết nối qua mạng xã hội</p>
+<button type="button" class="bg-blue-600 text-white px-6 py-2 !rounded-button font-medium hover:bg-blue-700 transition-colors whitespace-nowrap flex items-center space-x-2 mx-auto" onclick="window.open('https://facebook.com/superman.132000', '_blank')">
+<i class="ri-facebook-fill"></i>
+<span>Theo dõi Facebook</span>
+</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<footer class="bg-gradient-to-br from-slate-800 via-slate-900 to-blue-900 text-white py-16 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-64 h-64 bg-blue-500/20 rounded-full blur-3xl"></div>
+<div class="absolute bottom-0 left-0 w-48 h-48 bg-purple-500/10 rounded-full blur-2xl"></div>
+<div class="max-w-7xl mx-auto px-6 relative z-10">
+<div class="grid md:grid-cols-4 gap-12 mb-12">
+<div class="space-y-4">
+<div class="flex items-center space-x-3">
+<div class="w-16 h-14 bg-blue-500 rounded-xl flex items-center justify-center">
+<i class="ri-computer-line text-white text-xl"></i>
+</div>
+<div class="font-['Pacifico'] text-2xl mr-3">Dev Expert - Explore Technology 
+</div>
+</div>
+<p class="text-gray-300 leading-relaxed mb-6">
+Chuyên gia công nghệ với đam mê khám phá và nghiên cứu các công nghệ tiên tiến
+</p>
+</div>
+<div>
+<h4 class="text-xl font-semibold mb-6 text-white">Kỹ năng chính</h4>
+<ul class="space-y-3 text-gray-300">
+<li class="flex items-center">
+<div class="w-2 h-2 bg-blue-400 rounded-full mr-3"></div>
+<span>Build PC &amp; Laptop</span>
+</li>
+<li class="flex items-center">
+<div class="w-2 h-2 bg-blue-400 rounded-full mr-3"></div>
+<span>Software Installation</span>
+</li>
+<li class="flex items-center">
+<div class="w-2 h-2 bg-blue-400 rounded-full mr-3"></div>
+<span>Kernel Development</span>
+</li>
+<li class="flex items-center">
+<div class="w-2 h-2 bg-blue-400 rounded-full mr-3"></div>
+<span>Technology Research</span>
+</li>
+</ul>
+</div>
+<div>
+<h4 class="text-xl font-semibold mb-6 text-white">Liên Hệ</h4>
+<div class="space-y-4 text-gray-300">
+<div class="text-lg font-medium text-white">Nguyễn Trường Đức Thiện</div>
+<div class="flex items-center">
+<div class="w-5 h-5 flex items-center justify-center mr-3">
+<i class="ri-mail-line text-blue-400"></i>
+</div>
+<a href="mailto:thientruong012000@gmail.com" class="text-blue-400 hover:text-blue-300 transition-colors">mail.com</a>
+</div>
+<div class="flex items-center">
+<div class="w-5 h-5 flex items-center justify-center mr-3">
+<i class="ri-facebook-fill text-blue-400"></i>
+</div>
+<a href="https://www.facebook.com/superman.132000" class="text-blue-400 hover:text-blue-300 transition-colors">facebook.com</a>
+</div>
+<div class="flex items-center">
+<div class="w-5 h-5 flex items-center justify-center mr-3">
+<i class="ri-github-fill text-blue-400"></i>
+</div>
+<a href="#" class="text-blue-400 hover:text-blue-300 transition-colors">github.com</a>
+</div>
+<div class="flex items-center">
+<div class="w-5 h-5 flex items-center justify-center mr-3">
+<i class="ri-telegram-fill text-blue-400"></i>
+</div>
+<a href="https://t.me/thien123" class="text-blue-400 hover:text-blue-300 transition-colors">Telegram.org</a>
+</div>
+</div>
+</div>
+<div>
+<h4 class="text-xl font-semibold mb-6 text-white">Ủng Hộ</h4>
+<div class="text-center">
+<div class="bg-white/10 backdrop-blur-sm rounded-xl p-4 mb-4">
+<img src="https://static.readdy.ai/image/94b4353fc063707242a54a5f20d78584/3c11291932e2c215828bf5053f57459f.jfif" alt="MoMo QR Code" class="w-32 h-32 mx-auto rounded-lg mb-3">
+<p class="text-sm text-gray-300 mb-3">Quét mã QR để ủng hộ</p>
+</div>
+<a href="https://me.momo.vn/thien123" target="_blank" class="inline-flex items-center px-4 py-2 bg-pink-600 hover:bg-pink-700 text-white font-medium !rounded-button transition-all duration-300 whitespace-nowrap">
+<div class="w-5 h-5 flex items-center justify-center mr-2">
+<i class="ri-smartphone-line"></i>
+</div>
+Donate MoMo
+</a>
+</div>
+</div>
+</div>
+<div class="border-t border-gray-700/50 pt-8 text-center text-gray-400">
+<p class="mb-6 text-2xl font-bold bg-gradient-to-r from-red-500 via-yellow-500 via-green-500 via-cyan-500 via-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent animate-pulse" style="background-size: 400% 100%; animation: rainbow 3s linear infinite;">
+Cám ơn tất cả mọi người đã ủng hộ và chúc quý khách 1 trải nghiệm thú vị
+</p>
+<p>© 2025 Nguyễn Trường Đức Thiện. Tất cả quyền được bảo lưu.
+</p>
+</div>
+</div>
+</footer>
+<script id="smooth-scroll">
+document.addEventListener('DOMContentLoaded', function() {
+const links = document.querySelectorAll('a[href^="#"]');
+links.forEach(link => {
+link.addEventListener('click', function(e) {
+e.preventDefault();
+const targetId = this.getAttribute('href');
+const targetSection = document.querySelector(targetId);
+if (targetSection) {
+targetSection.scrollIntoView({
+behavior: 'smooth',
+block: 'start'
+});
+}
+});
+});
+});
+</script>
+<script id="form-handler">
+document.addEventListener('DOMContentLoaded', function() {
+const form = document.querySelector('form');
+if (form) {
+form.addEventListener('submit', function(e) {
+e.preventDefault();
+alert('Cảm ơn bạn đã gửi tin nhắn! Tôi sẽ phản hồi sớm nhất có thể.');
+form.reset();
+});
+}
+});
+</script>
+</body>
+</html>
